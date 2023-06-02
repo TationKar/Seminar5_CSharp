@@ -12,11 +12,11 @@ int[] arr = new int[10];
             }
             
 
-            Console.WriteLine("[" + string.Join("\t", arr) + "]");
+    Console.WriteLine("[" + string.Join("\t", arr) + "]");
 
-            for (int i = 0;i < arr.Length; i++)
-            {
-                arr[i] *= -1;
-            }
+    for (int i = 0;i < arr.Length; i++)
+{
+    arr[i] *= -1;
+}
             
-            Console.WriteLine("[" + string.Join("\t", arr) + "]");
+Console.WriteLine("[" + string.Join("\t", arr) + "]");
